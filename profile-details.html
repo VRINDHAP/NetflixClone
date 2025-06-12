@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Section</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="profile-detail.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body class="profile-details-page">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a href="index.html">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+            alt="Netflix"
+            class="logo"
+          />
+        </a>
+      </div>
+      <div class="navbar-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">TV Shows</a>
+        <a href="#" class="nav-link">Movies</a>
+        <a href="#" class="nav-link">New & Popular</a>
+        <a href="#" class="nav-link">My List</a>
+      </div>
+      <div class="navbar-right">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bell"></i>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+          alt="Profile"
+          class="profile-icon"
+        />
+      </div>
+    </nav>
+
+    <!-- Profile detail section -->
+    <div class="profile-details-container">
+      <div class="profile-header">
+        <div class="profile-avatar-wrapper">
+          <div class="profile-avatar-image">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+              alt="Profile"
+            />
+          </div>
+          <button class="edit-avatar-btn">
+            <i class="fas fa-camera"></i>
+          </button>
+        </div>
+        <div class="profile-info">
+          <h1 class="profile-name">Vrindha P</h1>
+          <p class="profile-email">
+            <i class="fas fa-envelope"></i>
+            dummy@gmail.com
+          </p>
+          <div class="membership-info">
+            <span class="membership-badge">
+              <i class="fas fa-crown"></i>
+              Premium
+            </span>
+            <span class="membership-details">
+              <i class="fas fa-tv"></i>
+              4K + HDR
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-sections">
+        <!-- Account Settings -->
+        <div class="profile-section">
+          <h2>
+            <i class="fas fa-cog"></i>
+            Account Settings
+          </h2>
+          <div class="setting-grid">
+            <!-- Membership Card -->
+            <div class="setting-card">
+              <div class="setting-header">
+                <h3>
+                  <i class="fas fa-credit-card"></i>
+                  Membership & Billing
+                </h3>
+                <button class="btn-change">
+                  <i class="fas fa-edit"></i>
+                  Change Plan
+                </button>
+              </div>
+              <div class="setting-content">
+                <p class="setting-details">
+                  <i class="fas fa-tag"></i>
+                  Premium Plan - ₹199/month
+                </p>
+                <p class="setting-details">
+                  <i class="fas fa-calendar"></i>
+                  Next billing date - July 05, 2025
+                </p>
+              </div>
+            </div>
+
+            <!-- Profile Control Card -->
+            <div class="setting-card">
+              <div class="setting-header">
+                <h3>
+                  <i class="fas fa-users"></i>
+                  Profile & Parental Controls
+                </h3>
+                <button class="btn-change">
+                  <i class="fas fa-sliders-h"></i>
+                  Manage
+                </button>
+              </div>
+              <div class="setting-content">
+                <p class="setting-details">
+                  <i class="fas fa-user"></i>
+                  Profile - 1
+                </p>
+                <p class="setting-details">
+                  <i class="fas fa-shield-alt"></i>
+                  All maturity ratings
+                </p>
+              </div>
+            </div>
+
+            <!-- Security Card -->
+            <div class="setting-card">
+              <div class="setting-header">
+                <h3>
+                  <i class="fas fa-lock"></i>
+                  Privacy & Security
+                </h3>
+                <button class="btn-change">
+                  <i class="fas fa-key"></i>
+                  Change Password
+                </button>
+              </div>
+              <div class="setting-content">
+                <p class="setting-details">
+                  <i class="fas fa-asterisk"></i>
+                  Password: ************
+                </p>
+                <p class="setting-details">
+                  <i class="fas fa-shield-alt"></i>
+                  Two-factor authentication enabled
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
