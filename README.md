@@ -6,9 +6,9 @@ A visually stunning **Netflix landing page clone** built using **HTML, CSS, and 
 
 ## 🧰 Technologies Used
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)
+- HTML 
+- CSS 
+- JavaScript
 
 ---
 
